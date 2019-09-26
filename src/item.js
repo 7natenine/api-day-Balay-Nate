@@ -4,6 +4,7 @@ const validateName = function(name) {
 
 const create = function(name) {
   return {
+    // eslint-disable-next-line no-undef
     id: cuid(),
     name,
     checked: false
